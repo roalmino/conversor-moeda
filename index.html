@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conversor de moeda</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1 class="title">Conversor de moeda</h1>
+      <form class="currencies">
+        <h2>Moedas:</h2>
+        <input
+          type="radio"
+          id="dolar"
+          value="dolar"
+          class="currency"
+          name="currency"
+          checked
+        />
+        <label for="dolar">Dolar</label>
+        <input
+          type="radio"
+          id="euro"
+          value="euro"
+          class="currency"
+          name="currency"
+        />
+        <label for="euro">Euro</label>
+      </form>
+      <div class="container">
+        <label for="valor">Valor: </label>
+        <input
+          type="number"
+          class="valor"
+          id="valor"
+          placeholder="Digite um valor em Reais"
+        />
+        <button class="button" type="submit" onclick="Converter()">
+          Converter
+        </button>
+        <h2 class="answer"></h2>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

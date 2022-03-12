@@ -1,0 +1,26 @@
+body {
+  background-color: #feefe5;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+.title {
+  color: #669bbc;
+}
+
+.currencies {
+  display: flex;
+  align-items: center;
+}
+.container {
+  margin-left: 50px;
+}
+
+.valor {
+  border: none;
+  background-color: #feefe5;
+}
+.button {
+  border: none;
+  background-color: #feefe5;
+}
