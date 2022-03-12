@@ -19,6 +19,7 @@ body {
 .valor {
   border: none;
   background-color: #feefe5;
+  width: 50px;
 }
 .button {
   border: none;
